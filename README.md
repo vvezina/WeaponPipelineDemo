@@ -11,6 +11,7 @@ Editor tool built in Unreal Engine to automate weapon setup and enforce asset st
 - Unreal Engine 5
 - Blueprint (Editor Utility Widgets)
 
-## Status
-Actively developed and iterated to improve workflow efficiency and usability.
+## Tool Preview
+
+![Weapon Pipeline Tool](Docs/tool_preview.png)
 
