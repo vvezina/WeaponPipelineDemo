@@ -1,10 +1,10 @@
-# UE5 Weapon Pipeline Tool
+# Weapon Asset Validator
 
-Editor tool built entirely in Blueprint to automate weapon asset creation, validation, and correction within a production pipeline. Built as a demo to showcase Blueprint-driven tooling in Unreal Engine 5.7.
+Editor tool built entirely in Blueprint to automate weapon data asset creation, validation, and correction. Built in Unreal Engine 5.7.
 
-## Tool Preview
+## Preview
 
-![Weapon Pipeline Tool](Docs/tool_preview.png)
+![Weapon Asset Validator](Docs/tool_preview.png)
 
 ## Features
 
@@ -22,8 +22,13 @@ Editor tool built entirely in Blueprint to automate weapon asset creation, valid
 - Auto-corrects invalid numeric values using class defaults
 - Logs every change per asset so designers can review what was fixed
 
+## Setup
+
+1. Open the project in Unreal Engine 5.7
+2. Open the Editor Utility Widget `EUW_WeaponAssetValidator`
+3. Use the Create, Validate, and Fix buttons to manage weapon data assets
+
 ## Tech
 - Unreal Engine 5.7
 - 100% Blueprint — Editor Utility Widget, Data Assets, Enums
 - No C++ or Python
-
